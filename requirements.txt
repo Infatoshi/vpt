@@ -1,0 +1,6 @@
+torch
+numpy
+cv2
+matplotlib
+PIL
+pygame
