@@ -5,7 +5,7 @@ import json
 import pygame
 import numpy as np
 # import torch
-import pickle
+# import pickle
 import os
 
 img_scaling = 0.25
