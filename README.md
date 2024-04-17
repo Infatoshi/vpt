@@ -7,7 +7,7 @@ sudo apt-get update
 sudo apt-get install openjdk-8-jdk
 ```
 Check to make sure Java 8 + JDK 8 is installed -> `java -version` and `javac -version`
-```
+
 
 To avoid complexities of python version management, we use a virtual environment to isolate the project dependencies like minerl, numpy, etc. If `python --version` or `python3 --version` doesn't work (you get error messages), use pyenv instead as it handles all the python version details for you. Any changes you need to make to pyenv and python version can be handled with extremely simple commands.
 
