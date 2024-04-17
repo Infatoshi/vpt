@@ -31,6 +31,11 @@ But Elliot, do you provide 1-on-1 tutoring/consulting for similar projects?
 Absolutely! Feel free to shoot me an email at *morgana@morganaholdingsllc.com* and we can setup a quick call to discuss your project and how I can help you achieve your goals.
 
 ### Links
+
+Join my Discord server - [The Neural Nest]https://discord.gg/pSsQ2cCzVC
+
+Twitter/X - [Elliot Arledge]https://twitter.com/elliotarledge
+
 LinkedIn - [Elliot Arledge]https://www.linkedin.com/in/elliot-arledge-a392b7243/
 
 YouTube - [Elliotcodes]https://www.youtube.com/channel/UCjlt_l6MIdxi4KoxuMjhYxg
