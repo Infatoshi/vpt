@@ -35,12 +35,12 @@ Absolutely! Feel free to shoot me an email at *morgana@morganaholdingsllc.com* a
 
 ### Links
 
-Join my Discord server - [The Neural Nest]https://discord.gg/pSsQ2cCzVC
+Join my Discord server - https://discord.gg/pSsQ2cCzVC
 
-Twitter/X - [Elliot Arledge]https://twitter.com/elliotarledge
+Twitter/X - https://twitter.com/elliotarledge
 
-LinkedIn - [Elliot Arledge]https://www.linkedin.com/in/elliot-arledge-a392b7243/
+LinkedIn - https://www.linkedin.com/in/elliot-arledge-a392b7243/
 
-YouTube - [Elliotcodes]https://www.youtube.com/channel/UCjlt_l6MIdxi4KoxuMjhYxg
+YouTube - https://www.youtube.com/channel/UCjlt_l6MIdxi4KoxuMjhYxg
 
-My Website - [elliotarledge.com]http://elliotarledge.com
+My Website - http://elliotarledge.com
