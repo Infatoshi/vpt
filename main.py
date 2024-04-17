@@ -18,7 +18,7 @@ for i in range(samples):
 
     # Constants
     OUTPUT_VIDEO_FILE = f"/mnt/d/py/vpt/data/labeller-training/video/mc-{i}.mp4"
-    ACTION_LOG_FILE = f"/mnt/d/py/vpt/data/labeller-training/actions/mc-{i}.json"
+    # ACTION_LOG_FILE = f"/mnt/d/py/vpt/data/labeller-training/actions/mc-{i}.json"
     FPS = 30
     RESOLUTION = (640, 360)  # Resolution at which to capture and save the video
     screen = pygame.display.set_mode(RESOLUTION)
