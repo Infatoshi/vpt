@@ -10,6 +10,13 @@ import pickle
 img_scaling = 0.25
 
 samples = 1
+
+output_video_path = str(input("Type `pwd` and paste the result here: "))
+
+# if the last index has a /, remove it
+if output_video_path[-1] == '/':
+    output_video_path = output_video_path[:-1]
+
 for i in range(samples):
         # Initialize pygame
     pygame.init()
@@ -17,15 +24,13 @@ for i in range(samples):
     frames = []
 
     # Constants
-    OUTPUT_VIDEO_FILE = f"/mnt/d/py/vpt/data/labeller-training/video/mc-{i}.mp4"
+    OUTPUT_VIDEO_FILE = f"{output_video_path}/data/labeller-training/video/mc-{i}.mp4"
     # ACTION_LOG_FILE = f"/mnt/d/py/vpt/data/labeller-training/actions/mc-{i}.json"
     FPS = 30
     RESOLUTION = (640, 360)  # Resolution at which to capture and save the video
     screen = pygame.display.set_mode(RESOLUTION)
     pygame.display.set_caption('Minecraft')
     SENS = 0.05
-
-    
 
     # Set up the OpenCV video writer
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')
@@ -78,7 +83,8 @@ for i in range(samples):
     obs = env.reset()
    
     done = False
-    # action = {"ESC": 0,
+    """
+    # action_space = {"ESC": 0,
     #          "noop": [], 
     #          "attack": 0, 
     #          "back": 0, 
@@ -103,7 +109,7 @@ for i in range(samples):
     #          "swapHands": 0, 
     #          "use": 0,
     #          "camera": [0.0, 0.0]}
-
+    """
     try:
         while not done:
             # Convert the observation to a format suitable for pygame display
@@ -122,8 +128,6 @@ for i in range(samples):
             screen.blit(image, (0, 0))
             pygame.display.update()
         
-            
-        
             # Get the current state of all keys
             keys = pygame.key.get_pressed()
         
@@ -131,7 +135,6 @@ for i in range(samples):
             for key, act in key_to_action_mapping.items():
                 if keys[key]:
                     action.update(act)
-        
             
             # Get mouse button states
             mouse_buttons = pygame.mouse.get_pressed()

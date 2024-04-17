@@ -1,6 +1,6 @@
 torch
 numpy
-cv2
+opencv-python
 matplotlib
 PIL
 pygame
