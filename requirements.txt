@@ -2,5 +2,4 @@ torch
 numpy
 opencv-python
 matplotlib
-PIL
 pygame
