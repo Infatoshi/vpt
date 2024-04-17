@@ -6,16 +6,12 @@ import pygame
 import numpy as np
 # import torch
 import pickle
+import os
 
 img_scaling = 0.25
 
 samples = 1
-
-output_video_path = str(input("Type `pwd` and paste the result here: "))
-
-# if the last index has a /, remove it
-if output_video_path[-1] == '/':
-    output_video_path = output_video_path[:-1]
+output_video_path = os.getcwd()
 
 for i in range(samples):
         # Initialize pygame
