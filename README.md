@@ -31,7 +31,7 @@ After running `python main.py`, a window should pop up with the Minecraft enviro
 ### Get in touch
 But Elliot, do you provide 1-on-1 tutoring/consulting for similar projects?
 
-Absolutely! Feel free to shoot me an email at *morgana@morganaholdingsllc.com* and we can setup a quick call to discuss your project and how I can help you achieve your goals.
+Absolutely! Feel free to shoot me an email at *elliot@arledge.net* and we can setup a quick call to discuss your project and how I can help you achieve your goals.
 
 ### Links
 
